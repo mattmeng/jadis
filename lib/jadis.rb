@@ -1,6 +1,7 @@
 require "jadis/constants"
 require "jadis/config"
 require "jadis/exceptions"
+require 'jadis/pages'
 
 module Jadis
   class << self

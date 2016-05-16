@@ -9,5 +9,7 @@ module Jadis
     class JadisArgumentError < ArgumentError
       include Nesty::NestedError
     end
+
+    class NotYetImplemented < JadisError; end
   end
 end
